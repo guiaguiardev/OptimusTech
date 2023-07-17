@@ -1,0 +1,128 @@
+.introducao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 96px;
+  text-align: center;
+  place-items: center;
+}
+
+.introducao span {
+  color: #8e2424;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.introducao h2 {
+  color: var(--cor-cinza-escuro);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.96px;
+}
+
+.introducao p {
+  text-align: center;
+}
+
+/* main */
+
+.vantagens {
+  max-width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  padding: 20px 200px;
+  margin: 0 auto;
+}
+
+.vantagens-lista {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.vantagens-lista h2 {
+  color: var(--cor-principal);
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -1.2px;
+}
+
+.vagas {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  place-items: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.vagas span {
+  color: var(--cor-principal);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  border-radius: 16px;
+  background: rgba(142, 36, 36, 0.05);
+  padding: 4px 12px;
+  width: 100px;
+}
+
+.cargos {
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto;
+  gap: 32px;
+}
+
+.cargos h3 {
+  margin-left: 140px;
+}
+
+.cargos-item {
+  display: flex;
+  padding: 24px 24px 28px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid #eaecf0;
+  background: var(--cor-branca);
+  width: 70%;
+  margin: 0 auto;
+}
+
+.colaboradores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-items: center;
+  gap: 15px;
+  padding: 80px 100px;
+  text-align: center;
+  background: rgba(195, 25, 25, 0.03);
+  margin: 100px auto;
+  border-radius: 16px;
+}
+
+.colaboradores h3 {
+  color: #8e2424;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.colaboradores h2 {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: -0.72px;
+}

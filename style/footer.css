@@ -1,0 +1,40 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  flex-direction: column;
+  background: #f9fafb;
+  padding: 96px 0px;
+  gap: 40px;
+}
+
+.footer-cadastro {
+  display: flex;
+  align-items: center;
+  place-items: center;
+  gap: 20px;
+}
+
+.footer-container input {
+  padding: 15px 30px;
+  align-items: flex-start;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  background: var(--cor-branca);
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  /* Firefox 18- */
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  /* Firefox 19+ */
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}

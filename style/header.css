@@ -1,0 +1,45 @@
+.header {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 100px;
+  margin: 20px auto;
+}
+
+.header a:hover {
+  color: var(--cor-preta);
+}
+
+.header-container-marca {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.header-container-marca a {
+  color: #3a404e;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.header-navegacao {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-login p {
+  padding: 10px 18px;
+  gap: 8px;
+}

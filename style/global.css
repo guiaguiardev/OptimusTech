@@ -1,0 +1,92 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-principal: #8e2424;
+  --cor-branca: #ffffff;
+  --cor-preta: #000000;
+  --cor-cinza: #667085;
+  --cor-cinza-escuro: #101828;
+}
+
+.ftitulo-secundaria {
+  color: #101828;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.fparagrafo-primaria {
+  color: var(--cor-cinza);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.fparagrafo-secundaria {
+  color: var(--cor-cinza);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.fspan {
+  color: var(--cor-cinza-escuro);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#botao {
+  border: 1px solid var(--cor-principal);
+  background: var(--cor-principal);
+  color: var(--cor-branca);
+  text-decoration: none;
+  padding: 12px 20px;
+  gap: 8px;
+  border-radius: 8px;
+}
+
+#botao:hover {
+  background: #b60a0a;
+}
